@@ -28,6 +28,7 @@ RUN mkdir -p /var/run/sshd
 RUN apt-get update
 RUN apt-get install -y pip  \
 	clang  \
+	clang-tidy \
 	clang-format \
 	valgrind \
 	xmlstarlet \
