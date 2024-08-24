@@ -30,7 +30,7 @@ jobs:
       uses: docker/build-push-action@v5
       with:
         context: .
-        file: ./v2x_cc/Dockerfile
+        file: ./Dockerfile
         push: true
         tags: "chao123/jlr_v2x_cc:latest"
 
