@@ -33,6 +33,7 @@ RUN apt-get install -y pip  \
 	valgrind \
 	xmlstarlet \
 	g++ \
+ 	connect-proxy \
 	ninja-build \
 	python3-pip \
 	pkg-config
