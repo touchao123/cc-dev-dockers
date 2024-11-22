@@ -1,0 +1,2 @@
+#!/bin/bash
+docker exec -it --user=jlr --workdir=/home/jlr chao-v2x  /bin/bash 
