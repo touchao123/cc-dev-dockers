@@ -1,0 +1,10 @@
+#!/bin/bash
+
+docker run -d \
+--hostname=jlr-s1 \
+--name=chao-v2x \
+-p 2022:22 \
+-v ~/.jlr-cc-env:/home/jlr/env \
+-v ~/.conan:/home/jlr/.conan \
+-v ~/workspace/v2x:/home/jlr/v2x \
+chao123/jlr_v2x_cc
