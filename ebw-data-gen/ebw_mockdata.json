@@ -1,0 +1,49 @@
+{
+	"EBW": {
+		"timestamp": 1572386230,
+	    "HV": {
+		    "info":97,
+			"type": "ObjectType_Vehicle",
+			"vehicleType": "VehicleType_PassengerCar",
+			"motion":{
+			    "lateralAcceleration": 0,
+			    "speed":10
+			},
+			"electronics": {
+				"hardBraking": "Off"
+			}
+		},
+		"RV": {
+		    "info":98,
+			"type": "ObjectType_Vehicle",
+			"vehicleType": "VehicleType_PassengerCar",
+			"motion":{
+			    "lateralAcceleration": -5,
+			    "speed":10
+			},
+			"electronics": {
+				"hardBraking": "On"
+			}
+		},
+		"relation":{
+		    "key":{
+			    "host": 97,
+			    "remote":98
+			},
+			"data":{
+			    "relativePosition":{
+			        "x":1.0,
+			        "y":0,
+			        "z":0
+			    },
+			    "relativeSpeed": {
+			        "x":0,
+			        "y":0
+			    },
+			    "speedDifference": -5.0,
+			    "distance": 10.0
+			}
+		}
+		
+	}
+}
